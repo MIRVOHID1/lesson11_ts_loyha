@@ -1,0 +1,32 @@
+.watchlist__container{
+    max-width: 1352px;
+    width: 100%;
+    margin: 0 auto;
+    margin-right: 0px;
+}
+
+.watchlist__wrapper{
+    margin-top: 130px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 50px;
+    .watchlist__item{
+        width: 200px;
+        column-gap: 50px;
+        .watchlist__image{
+            width: 200px;
+            height: 200px;
+        }
+        .watchlist__image:hover{
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            transition: 0.1s;
+        }
+        .watchlist__text{
+            max-width: 180px;
+            text-decoration: none;
+            color: black;
+            margin: 0 auto;
+        }
+    }
+
+}
